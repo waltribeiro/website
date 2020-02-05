@@ -1,0 +1,64 @@
+.body {
+  display: flex;
+  height:800px;
+}
+
+
+.text-right {
+  margin: auto;
+  text-align: right;
+}
+
+.navbar-brand {
+    background-color: lightgreen;
+    width: 150px;
+    text-align:center;
+    color:white;
+    background-color:#59aaa5
+}
+
+.textHeader {
+    color: #59aaa5;
+}
+
+.navText {
+  color: gray;  
+}
+
+.pictureStyle {
+    margin: 20px;
+}
+
+.mainPart {
+    width: 400px;
+    margin:auto;
+    margin-top: 50px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+}
+
+.lightgreen {
+    background-color: lightgreen;
+    color: black;
+}
+
+.backgroundImage {
+    background-color: lightgray;
+}
+
+.backgroundWhite {
+    background-color: white;
+}
+
+.backgroundWhiteContact {
+    background-color: white;
+    padding: 40px;
+    width: 60%;
+}
+
+.footer-copyright {
+    background-color:white;
+    height: 100px;
+    margin-top: -50px;
+}
