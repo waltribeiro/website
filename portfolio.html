@@ -1,179 +1,246 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Walt's Site</title>
     <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-      crossorigin="anonymous"/>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body class="backgroundImage">
-    <!-- this is the beginning of the navigation bar -->
+        rel="stylesheet"
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous"/>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body class="backgroundImage">
+
+<!-- this is the beginning of the navigation bar -->
 
     <nav class="navbar navbar-toggleable-xl navbar-inverse bg-white">
-      <div class="container">
-        <a class="navbar-brand" href="index.html">Walt Ribeiro</a>
-        <div>
-          <a class="navText" href="index.html">About</a> &nbsp; &nbsp; &nbsp;
-          <a class="navText" href="portfolio.html">Portfolio</a> &nbsp; &nbsp;
-          &nbsp;
-          <a class="navText" href="contact.html">Contact</a>
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Walt Ribeiro
+            </a>
+            <div>
+                <a class="navText" href="index.html">About</a>
+                &nbsp; &nbsp; &nbsp;
+                <a class="navText" href="portfolio.html">Portfolio</a>
+                &nbsp; &nbsp; &nbsp;
+                <a class="navText" href="contact.html">Contact</a>
+            </div>
         </div>
-      </div>
     </nav>
 
-    <!-- this is the end of the navigation bar -->
+<!-- this is the end of the navigation bar -->
 
-    <br />
-    <br />
+<br />
+<br />
 
-    <!-- <a href="password-generator/Develop/index.html"> -->
+<!-- PASSWORD -->
     <div class="card-deck mx-auto" style="width: 80%;">
-      <div class="card">
-        <h5 class="card-title text-center" style="margin-top:10px">
-          Password Generator
-        </h5>
-        <a
-        href="https://waltribeiro.github.io/password-generator">
-        <img
-          class="card-img-top"
-          src="images/03-javascript-homework-demo-3.png"
-          alt="Card image cap"/>
-      </a>
-        <div class="card-body">
-          <p class="card-text">
-            Choose a secure password between 8-128 characters.
-          </p>
-        </div>
-        <div class="card-footer">
-          <a
-            href="https://github.com/waltribeiro/password-generator"
-            class="btn btn-primary"
-            style="margin-right:20px"
-            target="_blank">
-            Github
-          </a>
-          <a
-            href="https://waltribeiro.github.io/password-generator"
-            class="btn btn-primary">
-            Demo
-          </a>
-        </div>
-
-        <!-- <div class="card mb-4">
-                    <div class="d-flex flex-column card-body">
-                          <p class="card-text d-flex">
-                            <a class="btn btn-primary text-white" style="width:50%" data-toggle="modal" data-target="#portfolioModal9">
-                            <i class="fas fa-play mr-2"></i>Demo</a>
-                          </p>
-                    </div>
-                </div> -->
-      </div>
-
-      <div class="card">
-        <h5 class="card-title text-center" style="margin-top:10px">
-          Pearl Jam Quiz
-        </h5>
-        <a
-        href="https://waltribeiro.github.io/pearl-jam-quiz/Develop/index.html">
-        <img
-          class="card-img-top"
-          src="images/pearl-jam-fan.png"
-          alt="Card image cap"/>
-        </a>
-        <div class="card-body">
-          <p class="card-text">Test your Pearl Jam fandom in 60 seconds</p>
-        </div>
-        <div class="card-footer">
-          <a href="https://github.com/waltribeiro/pearl-jam-quiz" style="margin-right:20px" class="btn btn-primary">
-            Github
-          </a>
-          <a href="https://waltribeiro.github.io/pearl-jam-quiz/Develop/index.html" class="btn btn-primary">
-            Demo
-          </a>
-        </div>
-      </div>
-    </div>
-
-    <br />
-    <br />
-
-    <!-- Portfolio Modal 9 -->
-    <div
-      class="portfolio-modal modal fade"
-      id="portfolioModal9"
-      tabindex="-1"
-      role="dialog"
-      aria-labelledby="portfolioModal9Label"
-      aria-hidden="true">
-      <div class="modal-dialog modal-xl" role="document">
-        <div class="modal-content">
-          <button
-            type="button"
-            class="close"
-            data-dismiss="modal"
-            aria-label="Close">
-            <span aria-hidden="true">
-              <i class="fas fa-times"></i>
-            </span>
-          </button>
-
-          <div class="modal-body text-center">
-            <div class="container">
-              <div class="row justify-content-center">
-                <div class="col-lg-8">
-                  <!-- Portfolio Modal - Title -->
-                  <h2
-                    class="portfolio-modal-title text-secondary text-uppercase mb-0">
-                    Password Generator
-                  </h2>
-                  <br />
-
-                  <!-- Portfolio Modal - Image -->
-
-                  <div class="password-wrapper">
-                    <div class="password-card">
-                      <!-- <link href="password-generator/style.css" rel="stylesheet" ></link> -->
-
-                      <div class="password-card-body">
-                        <textarea
-                          readonly
-                          id="password"
-                          placeholder="Your Secure Password"
-                          aria-label="Generated Password"></textarea>
-                      </div>
-                      <div class="password-card-footer">
-                        <p id="afterText"></p>
-                        <button id="generate" class="password-btn">
-                          Click Here to Generate Password
-                        </button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+        <div class="card">
+            <h5 class="card-title text-center" style="margin-top:10px">
+            Password Generator
+            </h5>
+            <a
+                href="https://waltribeiro.github.io/password-generator"
+                target="_blank"
+            >
+                <img
+                    class="card-img-top"
+                    src="img/03-javascript-homework-demo-3.png"
+                    alt="Card image cap"
+                />
+            </a>
+            <div class="card-body">
+                <p class="card-text">
+                Generate a secure password
+                </p>
             </div>
-          </div>
+            <div class="card-footer">
+                <a
+                    href="https://github.com/waltribeiro/password-generator"
+                    class="btn btn-primary"
+                    style="margin-right:20px"
+                    target="_blank"
+                >
+                Github
+                </a>
+                <a
+                    href="https://waltribeiro.github.io/password-generator"
+                    class="btn btn-primary"
+                    target="_blank"
+                >
+                Demo
+                </a>
+            </div>
+
         </div>
-      </div>
+
+<!-- QUIZ -->
+
+        <div class="card">
+            <h5
+                class="card-title text-center"
+                style="margin-top:10px"
+            >
+                Pearl Jam Quiz
+            </h5>
+            <a
+                href="https://waltribeiro.github.io/pearl-jam-quiz"
+                target="_blank"
+            >
+            <img
+                class="card-img-top"
+                src="img/pearl-jam-fan.png"
+                alt="Card image cap"/>
+            </a>
+            <div class="card-body">
+                <p class="card-text">Test your Pearl Jam fandom in 60 seconds</p>
+            </div>
+            <div class="card-footer">
+                <a
+                    href="https://github.com/waltribeiro/pearl-jam-quiz"
+                    style="margin-right:20px"
+                    class="btn btn-primary"
+                    target="_blank"
+                >
+                Github
+                </a>
+                <a
+                    href="https://waltribeiro.github.io/pearl-jam-quiz"
+                    class="btn btn-primary"
+                    target="_blank"
+                >
+                Demo
+                </a>
+            </div>
+        </div>
+
+
+<!-- CALENDAR --> 
+        <div class="card">
+            <h5
+                class="card-title text-center"
+                style="margin-top:10px"
+            >
+                My Calendar
+            </h5>
+            <a
+                href="https://waltribeiro.github.io/my-calendar"
+                target="_blank"
+            >
+            <img
+                class="card-img-top"
+                src="img/screenshot-my-calendar.png"
+                alt="Card image cap"/>
+            </a>
+            <div class="card-body">
+                <p class="card-text">Plan Your Week</p>
+            </div>
+            <div class="card-footer">
+                <a
+                    href="https://github.com/waltribeiro/my-calendar"
+                    style="margin-right:20px"
+                    class="btn btn-primary"
+                    target="_blank"
+                >
+                Github
+                </a>
+                <a
+                    href="https://waltribeiro.github.io/my-calendar"
+                    class="btn btn-primary"
+                    target="_blank"
+                >
+                Demo
+                </a>
+            </div>
+        </div>
+
+
+
+
     </div>
 
-    <!-- Portfolio Modal End -->
+<br />
+<br />
+
+<!-- Portfolio Modal 9 -->
+    <div
+        class="portfolio-modal modal fade"
+        id="portfolioModal9"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="portfolioModal9Label"
+        aria-hidden="true"
+    >
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                <button
+                    type="button"
+                    class="close"
+                    data-dismiss="modal"
+                    aria-label="Close"
+                >
+                    <span aria-hidden="true">
+                        <i class="fas fa-times"></i>
+                    </span>
+                </button>
+
+            <div class="modal-body text-center">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+<!-- Portfolio Modal - Title -->
+                            <h2
+                                class="portfolio-modal-title text-secondary text-uppercase mb-0"
+                            >
+                                Password Generator
+                            </h2>
+<br />
+
+<!-- Portfolio Modal - Image -->
+
+                            <div class="password-wrapper">
+                                <div class="password-card">
+<!-- <link href="password-generator/style.css" rel="stylesheet" ></link> -->
+                                    <div class="password-card-body">
+                                        <textarea
+                                            readonly
+                                            id="password"
+                                            placeholder="Your Secure Password"
+                                            aria-label="Generated Password"
+                                        >
+                                        </textarea>
+                                    </div>
+                                    <div class="password-card-footer">
+                                        <p id="afterText"></p>
+                                        <button id="generate" class="password-btn">
+                                        Click Here to Generate Password
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Portfolio Modal End -->
 
     <footer
-      id="sticky-footer"
-      style="border-top: 10px solid #59aaa5;"
-      class="py-4 bg-dark text-light fixed-bottom">
-      <div class="container text-center">
-        <small>Website designed by Walt Ribeiro</small>
-      </div>
+        id="sticky-footer"
+        style="border-top: 10px solid #59aaa5;"
+        class="py-4 bg-dark text-light fixed-bottom"
+    >
+        <div class="container text-center">
+            <small>Website designed by Walt Ribeiro</small>
+        </div>
     </footer>
 
-    <script src="password-generator/Develop/script.js"></script>
-  </body>
+    <script src="js/script.js"></script>
+    </body>
 </html>
