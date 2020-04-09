@@ -46,7 +46,7 @@ class Carousel extends React.Component {
                 {
                     id: 3,
                     title: 'React.js Directory',
-                    subTitle: 'A searchable React.js Directory that pings an API endpoint',
+                    subTitle: 'A searchable user directory built with React.js, Redux, and Router',
                     imgSrc: directoryImage,
                     link: 'https://github.com/waltribeiro',
                     selected: false
