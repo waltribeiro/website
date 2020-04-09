@@ -13,10 +13,10 @@ This is my React Portfolio. It was built using React.js and React Router. I show
 <br>
 
 ## Images
-  <img src="./src/assets/images/browser-4-burger-view-controller.png" alt="season-all" width="300px"/>
-  <img src="./src/assets/images/browser-4-node-employee.png" alt="season-all" width="300px"/>
+  <img src="./src/assets/images/browser-4-arduino.gif" alt="season-all" width="300px"/>
+  <img src="./src/assets/images/browser-4-phlask.gif" alt="season-all" width="300px"/>
   <br>
-  <img src="./src/assets/images/browser-4-note-saver-app.png" alt="season-all" width="300px"/>
+  <img src="./src/assets/images/browser-4-season-all-app.gif" alt="season-all" width="300px"/>
   <img src="./src/assets/images/browser-4-piano.gif" alt="season-all" width="300px"/>
 <br>
 
