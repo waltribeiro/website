@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react-website/static/css/main.709215dd.chunk.css",
+    "main.js": "/react-website/static/js/main.b9aa7b46.chunk.js",
+    "main.js.map": "/react-website/static/js/main.b9aa7b46.chunk.js.map",
+    "runtime~main.js": "/react-website/static/js/runtime~main.5bd11a58.js",
+    "runtime~main.js.map": "/react-website/static/js/runtime~main.5bd11a58.js.map",
+    "static/css/2.510409cd.chunk.css": "/react-website/static/css/2.510409cd.chunk.css",
+    "static/js/2.a4f91314.chunk.js": "/react-website/static/js/2.a4f91314.chunk.js",
+    "static/js/2.a4f91314.chunk.js.map": "/react-website/static/js/2.a4f91314.chunk.js.map",
+    "index.html": "/react-website/index.html",
+    "precache-manifest.f8c3883969e448ec558c38c68963ca46.js": "/react-website/precache-manifest.f8c3883969e448ec558c38c68963ca46.js",
+    "service-worker.js": "/react-website/service-worker.js",
+    "static/css/2.510409cd.chunk.css.map": "/react-website/static/css/2.510409cd.chunk.css.map",
+    "static/css/main.709215dd.chunk.css.map": "/react-website/static/css/main.709215dd.chunk.css.map",
+    "static/media/browser-4-arduino.gif": "/react-website/static/media/browser-4-arduino.0002c934.gif",
+    "static/media/browser-4-phlask.gif": "/react-website/static/media/browser-4-phlask.8eb1f167.gif",
+    "static/media/browser-4-piano.gif": "/react-website/static/media/browser-4-piano.033f14b2.gif",
+    "static/media/browser-4-react-user-search.png": "/react-website/static/media/browser-4-react-user-search.1eb9e427.png",
+    "static/media/browser-4-season-all-app.gif": "/react-website/static/media/browser-4-season-all-app.27abf692.gif",
+    "static/media/browser-4-weather-api.png": "/react-website/static/media/browser-4-weather-api.a080573a.png"
+  }
+}
