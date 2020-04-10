@@ -1,5 +1,5 @@
 {
-  "homepage": "http://waltribeiro.github.io/react-website",
+  "homepage": "https://waltribeiro.github.io/react-website-refactor",
   "name": "portfolio-site",
   "version": "0.1.0",
   "private": true,
@@ -37,7 +37,6 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "http://localhost:3030",
   "devDependencies": {
     "gh-pages": "^2.2.0"
   }
