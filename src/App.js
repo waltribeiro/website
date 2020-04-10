@@ -38,8 +38,8 @@ class App extends React.Component {
 
   render() {
     return (
-      <Router>
-        <Container className="p-0" fluid={true}>
+        <Router basename="/react-website-refactor"> {/* this is what goes to waltribeiro.github.io*/}
+          <Container className="p-0" fluid={true}>
           
           <Navbar className="border-bottom" bg="transparent" expand="lg">
           <Navbar.Brand><a className="nav-link" href="/">Walt Ribeiro</a></Navbar.Brand>
@@ -53,7 +53,7 @@ class App extends React.Component {
               </Nav>
             </Navbar.Collapse>
           </Navbar>
-          {/* <Route path="/reactfolio/" exact component={Body} /> */}
+
           <Route path="/" exact render={() => <HomePage title={this.state.home.title} subTitle={this.state.home.subTitle} text={this.state.home.text} />} />
           <Route path="/about" render={() => <AboutPage title={this.state.about.title} />} />
           <Route path="/contact" render={() => <ContactPage title={this.state.contact.title} />} />
