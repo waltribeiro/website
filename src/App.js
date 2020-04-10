@@ -38,7 +38,7 @@ class App extends React.Component {
 
   render() {
     return (
-        <Router basename="/react-website-refactor"> {/* this is what goes to waltribeiro.github.io*/}
+        <Router basename="/react-website"> {/* this is what goes to waltribeiro.github.io*/}
           <Container className="p-0" fluid={true}>
           
           <Navbar className="border-bottom" bg="transparent" expand="lg">
